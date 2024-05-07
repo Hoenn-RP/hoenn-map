@@ -86,7 +86,7 @@
 		shadowSize:  [48, 48]
 	});
 
-  var route101 = L.icon({ iconUrl: 'icons/101.png', iconRetinaUrl: 'icons/101.png', shadowUrl: 'icons/shadow-route.png', iconSize:    [48, 48], iconAnchor:  [24, 24], popupAnchor: [0, -17], shadowSize:  [48, 48]});
+  var route101 = L.icon({ iconUrl: 'icons/101.png', iconRetinaUrl: 'icons/101.png', shadowUrl: 'icons/shadow-route.png', iconSize: [48, 48], iconAnchor: [24, 24], popupAnchor: [0, -17], shadowSize: [48, 48]});
   var route102 = L.icon({ iconUrl: 'icons/102.png', iconRetinaUrl: 'icons/102.png', shadowUrl: 'icons/shadow-route.png', iconSize: [48, 48], iconAnchor: [24, 24], popupAnchor: [0, -17], shadowSize: [48, 48]});
   var route103 = L.icon({ iconUrl: 'icons/103.png', iconRetinaUrl: 'icons/103.png', shadowUrl: 'icons/shadow-route.png', iconSize: [48, 48], iconAnchor: [24, 24], popupAnchor: [0, -17], shadowSize: [48, 48]});
   var route104 = L.icon({ iconUrl: 'icons/104.png', iconRetinaUrl: 'icons/104.png', shadowUrl: 'icons/shadow-route.png', iconSize: [48, 48], iconAnchor: [24, 24], popupAnchor: [0, -17], shadowSize: [48, 48]});
@@ -137,7 +137,7 @@
   var littleroot_town = L.marker([-43.961191, -87.011719], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Littleroot Town</div><a href="https://pkmn-hoenn.boards.net/board/24/littleroot-town"><div class="gotolocation">go to location</div></a>');
   var odale_town = L.marker([-27.059126, -87.011719], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Odale Town</div><a href="https://pkmn-hoenn.boards.net/board/25/oldale-town"><div class="gotolocation">go to location</div></a>');
   var petalburg_city = L.marker([-19.642588, -117.246094], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Petalburg City</div><a href="https://pkmn-hoenn.boards.net/board/26/petalburg-city"><div class="gotolocation">go to location</div></a>');
-  var rustboro_city = L.marker([10.487812, -120.761719], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Rustboro City</div><a href="https://pkmn-hoenn.boards.net/board/27/rustboro-city"><div class="gotolocation">go to location</div></a>');
+  var rustboro_city = L.marker([18.646245, -119.882813], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Rustboro City</div><a href="https://pkmn-hoenn.boards.net/board/27/rustboro-city"><div class="gotolocation">go to location</div></a>');
   var dewford_town = L.marker([-55.178868, -106.523437], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Dewford Town</div><a href="https://pkmn-hoenn.boards.net/board/28/dewford-town"><div class="gotolocation">go to location</div></a>');
   var slateport_city = L.marker([-34.597042, -53.261719], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Slateport City</div><a href="https://pkmn-hoenn.boards.net/board/40/upper-district"><div class="gotolocation">go to location</div></a>');
   var mauville_city = L.marker([7.710992, -53.261719], {icon: settlement}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mauville City</div><a href="https://pkmn-hoenn.boards.net/board/29/mauville-city"><div class="gotolocation">go to location</div></a>');
@@ -153,7 +153,7 @@
 
   //Landmarks
   var petalburg_woods = L.marker([-7.536764, -125.332031], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Petalburg Woods</div><a href="https://pkmn-hoenn.boards.net/board/61/petalburg-woods"><div class="gotolocation">go to location</div></a>');
-  var rusturf_tunnel = L.marker([-6.140555, -101.425781], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Rusturf Tunnel</div><a href="https://pkmn-hoenn.boards.net/board/66/rusturf-tunnel"><div class="gotolocation">go to location</div></a>');
+  var rusturf_tunnel = L.marker([18.646245, -94.394531], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Rusturf Tunnel</div><a href="https://pkmn-hoenn.boards.net/board/66/rusturf-tunnel"><div class="gotolocation">go to location</div></a>');
   var granite_cave = L.marker([-54.673831, -114.785156], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Granite Cave</div><a href="https://pkmn-hoenn.boards.net/board/57/granite-cave"><div class="gotolocation">go to location</div></a>');
   var sea_mauville = L.marker([-55.973798, -67.324219], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Sea Mauville</div><a href="https://pkmn-hoenn.boards.net/board/91/sea-mauville"><div class="gotolocation">go to location</div></a>');
   var mauville_hills = L.marker([11.350797, -65.039063], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mauville Hills</div><a href="https://pkmn-hoenn.boards.net/board/74/mauville-hills"><div class="gotolocation">go to location</div></a>');
@@ -161,16 +161,49 @@
   var cave_of_origin = L.marker([5.790897, 57.65625], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Cave of Origin</div><a href="https://pkmn-hoenn.boards.net/board/215/cave-origin"><div class="gotolocation">go to location</div></a>');
   var safari_zone = L.marker([39.909736, 15.117188], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Safari Zone</div><a href="https://pkmn-hoenn.boards.net/board/34/safari-zone"><div class="gotolocation">go to location</div></a>');
   var seafloor_cavern = L.marker([-18.479609, 76.113281], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Seafloor Cavern</div><a href="https://pkmn-hoenn.boards.net/board/88/seafloor-cavern"><div class="gotolocation">go to location</div></a>');
-  var meteor_falls = L.marker([28.149503, -113.730469], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Meteor Falls</div><a href="https://pkmn-hoenn.boards.net/board/64/meteor-falls"><div class="gotolocation">go to location</div></a>');
+  var meteor_falls = L.marker([38.272689, -114.082031], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Meteor Falls</div><a href="https://pkmn-hoenn.boards.net/board/64/meteor-falls"><div class="gotolocation">go to location</div></a>');
   var shoal_cave = L.marker([37.996163, 73.125], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Shoal Cave</div><a href="https://pkmn-hoenn.boards.net/board/93/shoal-cave"><div class="gotolocation">go to location</div></a>');
   var mt_pyre = L.marker([19.145168, 16.523438], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mount Pyre</div><a href="https://pkmn-hoenn.boards.net/board/54/mt-pyre"><div class="gotolocation">go to location</div></a>');
   var sky_pillar = L.marker([-35.173808, 50.097656], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Sky Pillar</div><a href="https://pkmn-hoenn.boards.net/board/208/sky-pillar"><div class="gotolocation">go to location</div></a>');
-  var the_desert = L.marker([27.994401, -37.96875], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>The Desert</div><a href="https://pkmn-hoenn.boards.net/board/81/desert"><div class="gotolocation">go to location</div></a>');
-  var the_silent_icelands = L.marker([-24.527135, -71.367188], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>The Silent Icelands</div><a href="https://pkmn-hoenn.boards.net/board/198/silent-icelands"><div class="gotolocation">go to location</div></a>');
+  var the_desert = L.marker([24.367114, -48.339844], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>The Desert</div><a href="https://pkmn-hoenn.boards.net/board/81/desert"><div class="gotolocation">go to location</div></a>');
+  var the_silent_icelands = L.marker([-17.14079, -86.484375], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>The Silent Icelands</div><a href="https://pkmn-hoenn.boards.net/board/198/silent-icelands"><div class="gotolocation">go to location</div></a>');
   var battle_resort = L.marker([-44.465151, 70.3125], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Battle Resort</div><a href="https://pkmn-hoenn.boards.net/board/197/battle-resort"><div class="gotolocation">go to location</div></a>');
 
   //Routes
-  var route_101 = L.marker([-35.5101585, -87.011719], {icon: route101}).bindPopup('<b>Route 101</b>');
+  var route_101 = L.marker([-35.5101585, -87.011719], {icon: route101}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 101</div><a href="https://pkmn-hoenn.boards.net/board/58/route-101"><div class="gotolocation">go to location</div></a>');
+  var route_102 = L.marker([-24.20689, -101.259], {icon: route102}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 102</div><a href="https://pkmn-hoenn.boards.net/board/62/route-102"><div class="gotolocation">go to location</div></a>');
+  var route_103 = L.marker([-26.588527, -74.003906], {icon: route103}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 103</div><a href="https://pkmn-hoenn.boards.net/board/59/route-103"><div class="gotolocation">go to location</div></a>');
+  var route_104 = L.marker([4.214943, -124.453125], {icon: route104}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 104</div><a href="https://pkmn-hoenn.boards.net/board/60/route-104"><div class="gotolocation">go to location</div></a>');
+  var route_105 = L.marker([-32.10119, -123.75], {icon: route105}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 105</div><a href="https://pkmn-hoenn.boards.net/board/216/route-105"><div class="gotolocation">go to location</div></a>');
+  var route_106 = L.marker([-48.806863, -117.070313], {icon: route106}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 106</div><a href="https://pkmn-hoenn.boards.net/board/86/water-routes"><div class="gotolocation">go to location</div></a>');
+  var route_107 = L.marker([-55.973798, -82.089844], {icon: route107}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 107</div><a href="https://pkmn-hoenn.boards.net/board/92/route-107"><div class="gotolocation">go to location</div></a>');
+  var route_108 = L.marker([-53.435719, -57.65625], {icon: route108}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 108</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_109 = L.marker([-45.828799, -52.734375], {icon: route109}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 109</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_110 = L.marker([-15.623037, -60.292969], {icon: route110}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 110</div><a href="https://pkmn-hoenn.boards.net/board/114/route-110"><div class="gotolocation">go to location</div></a>');
+  var route_111 = L.marker([36.031332, -53.085938], {icon: route111}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 111</div><a href="https://pkmn-hoenn.boards.net/board/73/route-111"><div class="gotolocation">go to location</div></a>');
+  var route_112 = L.marker([24.527135, -66.796875], {icon: route112}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 112</div><a href="https://pkmn-hoenn.boards.net/board/68/route-112"><div class="gotolocation">go to location</div></a>');
+  var route_113 = L.marker([49.267805, -73.476563], {icon: route113}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 113</div><a href="https://pkmn-hoenn.boards.net/board/71/route-113"><div class="gotolocation">go to location</div></a>');
+  var route_114 = L.marker([40.580585, -99.140625], {icon: route114}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 114</div><a href="https://pkmn-hoenn.boards.net/board/72/route-114"><div class="gotolocation">go to location</div></a>');
+  var route_115 = L.marker([27.215556, -114.433594], {icon: route115}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 115</div><a href="https://pkmn-hoenn.boards.net/board/63/route-115"><div class="gotolocation">go to location</div></a>');
+  var route_116 = L.marker([11.005904, -107.050781], {icon: route116}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 116</div><a href="https://pkmn-hoenn.boards.net/board/65/route-116"><div class="gotolocation">go to location</div></a>');
+  var route_117 = L.marker([4.214943, -75.9375], {icon: route117}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 117</div><a href="https://pkmn-hoenn.boards.net/board/67/route-117"><div class="gotolocation">go to location</div></a>');
+  var route_118 = L.marker([9.795678, -39.023438], {icon: route118}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 118</div><a href="https://pkmn-hoenn.boards.net/board/75/route-118"><div class="gotolocation">go to location</div></a>');
+  var route_119 = L.marker([33.431441, -35.683594], {icon: route119}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 119</div><a href="https://pkmn-hoenn.boards.net/board/80/route-119"><div class="gotolocation">go to location</div></a>');
+  var route_120 = L.marker([44.339565, -20.390625], {icon: route120}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 120</div><a href="https://pkmn-hoenn.boards.net/board/79/route-120"><div class="gotolocation">go to location</div></a>');
+  var route_121 = L.marker([32.398516, -1.40625], {icon: route121}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 121</div><a href="https://pkmn-hoenn.boards.net/board/78/route-121"><div class="gotolocation">go to location</div></a>');
+  var route_122 = L.marker([28.921631, 15.46875], {icon: route122}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 122</div><a href="https://pkmn-hoenn.boards.net/board/77/route-122"><div class="gotolocation">go to location</div></a>');
+  var route_123 = L.marker([7.188101, 5.449219], {icon: route123}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 123</div><a href="https://pkmn-hoenn.boards.net/board/76/route-123"><div class="gotolocation">go to location</div></a>');
+  var route_124 = L.marker([35.746512, 55.722656], {icon: route124}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 124</div><a href="https://pkmn-hoenn.boards.net/board/82/route-124"><div class="gotolocation">go to location</div></a>');
+  var route_125 = L.marker([30.600094, 89.121094], {icon: route125}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 125</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_126 = L.marker([7.710992, 46.933594], {icon: route126}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 126</div><a href="https://pkmn-hoenn.boards.net/board/83/route-126"><div class="gotolocation">go to location</div></a>');
+  var route_127 = L.marker([-8.754795, 85.957031], {icon: route127}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 127</div><a href="https://pkmn-hoenn.boards.net/board/84/route-127"><div class="gotolocation">go to location</div></a>');
+  var route_128 = L.marker([-25.165173, 95.625], {icon: route128}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 128</div><a href="https://pkmn-hoenn.boards.net/board/85/route-128"><div class="gotolocation">go to location</div></a>');
+  var route_129 = L.marker([-36.597889, 98.964844], {icon: route129}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 129</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_130 = L.marker([-34.597042, 78.925781], {icon: route130}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 130</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_131 = L.marker([-32.10119, 37.617188], {icon: route131}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 131</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_132 = L.marker([-33.137551, -1.054688], {icon: route132}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 132</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_133 = L.marker([-36.315125, -20.039063], {icon: route133}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 133</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
+  var route_134 = L.marker([-46.073231, -32.167969], {icon: route134}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 134</div><a href="https://pkmn-hoenn.boards.net/board/86/water-route"><div class="gotolocation">go to location</div></a>');
 
   //Marker Groups
   var settlements = L.layerGroup([
@@ -210,7 +243,40 @@
       battle_resort
   ]);
   var routes = L.layerGroup([
-      route_101
+    route_101,
+    route_102,
+    route_103,
+    route_104,
+    route_105,
+    route_106,
+    route_107,
+    route_108,
+    route_109,
+    route_110,
+    route_111,
+    route_112,
+    route_113,
+    route_114,
+    route_115,
+    route_116,
+    route_117,
+    route_118,
+    route_119,
+    route_120,
+    route_121,
+    route_122,
+    route_123,
+    route_124,
+    route_125,
+    route_126,
+    route_127,
+    route_128,
+    route_129,
+    route_130,
+    route_131,
+    route_132,
+    route_133,
+    route_134
   ]);
   var factions = L.layerGroup([
       rocket_HQ,
