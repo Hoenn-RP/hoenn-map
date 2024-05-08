@@ -56,6 +56,16 @@
 		shadowSize:  [48, 48]
 	});
 
+  var landmark_2 = L.icon({
+		iconUrl:       'icons/landmark-2.png',
+		iconRetinaUrl: 'icons/landmark-2.png',
+		shadowUrl:     'icons/shadow-settlement.png',
+		iconSize:    [48, 48],
+		iconAnchor:  [24, 24],
+		popupAnchor: [0, -17],
+		shadowSize:  [48, 48]
+	});
+
   var rocket = L.icon({
 		iconUrl:       'icons/rocket.png',
 		iconRetinaUrl: 'icons/rocket.png',
@@ -159,7 +169,7 @@
   var mauville_hills = L.marker([11.350797, -65.039063], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mauville Hills</div><a href="https://pkmn-hoenn.boards.net/board/74/mauville-hills"><div class="gotolocation">go to location</div></a>');
   var mt_chimney = L.marker([35.746512, -67.5], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mount Chimney</div><a href="https://pkmn-hoenn.boards.net/board/55/mt-chimney"><div class="gotolocation">go to location</div></a>');
   var cave_of_origin = L.marker([5.790897, 57.65625], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Cave of Origin</div><a href="https://pkmn-hoenn.boards.net/board/215/cave-origin"><div class="gotolocation">go to location</div></a>');
-  var safari_zone = L.marker([39.909736, 15.117188], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Safari Zone</div><a href="https://pkmn-hoenn.boards.net/board/34/safari-zone"><div class="gotolocation">go to location</div></a>');
+  var safari_zone = L.marker([39.909736, 15.117188], {icon: landmark_2}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Safari Zone</div><a href="https://pkmn-hoenn.boards.net/board/34/safari-zone"><div class="gotolocation">go to location</div></a>');
   var seafloor_cavern = L.marker([-18.479609, 76.113281], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Seafloor Cavern</div><a href="https://pkmn-hoenn.boards.net/board/88/seafloor-cavern"><div class="gotolocation">go to location</div></a>');
   var meteor_falls = L.marker([38.272689, -114.082031], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Meteor Falls</div><a href="https://pkmn-hoenn.boards.net/board/64/meteor-falls"><div class="gotolocation">go to location</div></a>');
   var shoal_cave = L.marker([31.503629, 105.644531], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Shoal Cave</div><a href="https://pkmn-hoenn.boards.net/board/93/shoal-cave"><div class="gotolocation">go to location</div></a>');
@@ -167,9 +177,9 @@
   var sky_pillar = L.marker([-35.173808, 50.097656], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Sky Pillar</div><a href="https://pkmn-hoenn.boards.net/board/208/sky-pillar"><div class="gotolocation">go to location</div></a>');
   var the_desert = L.marker([40.580585, -43.242188], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>The Desert</div><a href="https://pkmn-hoenn.boards.net/board/81/desert"><div class="gotolocation">go to location</div></a>');
   var the_silent_icelands = L.marker([-17.14079, -86.484375], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>The Silent Icelands</div><a href="https://pkmn-hoenn.boards.net/board/198/silent-icelands"><div class="gotolocation">go to location</div></a>');
-  var battle_resort = L.marker([-44.465151, 70.3125], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Battle Resort</div><a href="https://pkmn-hoenn.boards.net/board/197/battle-resort"><div class="gotolocation">go to location</div></a>');
-  var hot_springs = L.marker([39.639538, -82.792969], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Hot Springs</div><a href="https://pkmn-hoenn.boards.net/board/194/hot-springs"><div class="gotolocation">go to location</div></a>');
-  var mossdeep_space_center = L.marker([19.973349, 95.097656], {icon: landmark}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mossdeep Space Center</div><a href="20.303418, 94.746094"><div class="gotolocation">go to location</div></a>');
+  var battle_resort = L.marker([-44.465151, 70.3125], {icon: landmark_2}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Battle Resort</div><a href="https://pkmn-hoenn.boards.net/board/197/battle-resort"><div class="gotolocation">go to location</div></a>');
+  var hot_springs = L.marker([39.639538, -82.792969], {icon: landmark_2}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Hot Springs</div><a href="https://pkmn-hoenn.boards.net/board/194/hot-springs"><div class="gotolocation">go to location</div></a>');
+  var mossdeep_space_center = L.marker([19.973349, 95.097656], {icon: landmark_2}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Mossdeep Space Center</div><a href="20.303418, 94.746094"><div class="gotolocation">go to location</div></a>');
 
   //Routes
   var route_101 = L.marker([-35.5101585, -87.011719], {icon: route101}).bindPopup('<div class="topbar"><span class="lnr lnr-star"></span>Route 101</div><a href="https://pkmn-hoenn.boards.net/board/58/route-101"><div class="gotolocation">go to location</div></a>');
