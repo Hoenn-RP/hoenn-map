@@ -489,11 +489,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	width: 280px;
 	min-height:30px;
 	border: 1px solid #232323;
-	background-color: #2b2b2b;
+	background-color: #303030;
     color: #aaa;
-    background-image: url(https://image.ibb.co/cpf8Wc/flower_patt.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
 	}
 .leaflet-popup-content {
 	line-height: 1.3;
